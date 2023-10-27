@@ -1,0 +1,6 @@
+localtime() method returns the struct_time object in local time. It takes the number of seconds passed since epoch as an argument. If the seconds parameter is not given then the current time returned by time.time() method is used.
+
+"r" - Read - Default value, Opens a file for reading, error if the file doesn't exist
+"a" - Append - Opens a file for appending, creates the file if it doesn't exist
+"w" - Write - Opens a file for writting, create  the file if it doesn't exist
+"x" - Create - Creates the specified file, returns an error if the file exist    

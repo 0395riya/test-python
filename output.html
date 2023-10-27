@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+     <!-- <script src="./Java.js"> </script> -->
+     <script src="./practice.js"> </script>
+     <title>Document</title>
+      
+</head>
+<body>
+
+
+    <div>
+<h1>Hello</h1>
+<div id="products">
+    <li id="Shoes">Shoes</li>
+    <li id="Shirt">Shirt</li>
+    <li id="Wallets">Wallets</li>
+
+</div>
+<script>
+    
+
+const root = document.querySelectorAll("#products")
+root.forEach(item => {
+    item.addEventListener('click', function onClick(e) {
+        console.log(e );
+    });
+});
+</script>
+    </div>
+</body>
+</html>
